@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: $second;
+}
+ul {
+  list-style-type: none;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  background: $btn;
+  color: $main;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  padding: 16px 30px;
+  transition: background .3s ease 0s;
+}
+.button:hover {
+  background: #2e68c3;
+}
+.button_dark {
+  background: rgba(129, 129, 139, .2);
+}
+.button_dark:hover {
+  background: rgba(129, 129, 139, .5);
+}
+.text {
+  color: #81818b;
+  line-height: 1.5;
+}
+
+@media (max-width: 991.98px) {
+  .button {
+    padding: 14px 20px;
+  }
+}
